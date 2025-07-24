@@ -1,5 +1,5 @@
 # AI_impact_datapipeline
-# AI Impact Project REST API
+
 
 This project provides a basic Flask REST API to upload files to an AWS S3 bucket.
 
