@@ -1,0 +1,21 @@
+index,Country,ImpactScore,Count,ImpactScore
+0,Australia,74.66666666666667,,
+1,Canada,66.5,,
+2,China,78.88888888888889,,
+3,France,71.93333333333334,,
+4,Germany,81.0,,
+5,India,66.6923076923077,,
+6,Japan,76.72727272727273,,
+7,South Korea,71.0,,
+8,UK,77.06666666666666,,
+9,USA,74.2,,
+Gaming,,,18.0,95.0
+Media,,,13.0,88.0
+Marketing,,,11.0,88.0
+Legal,,,11.0,88.0
+Healthcare,,,11.0,89.0
+Automotive,,,10.0,93.0
+Education,,,10.0,88.0
+Manufacturing,,,9.0,93.0
+Retail,,,8.0,94.0
+Finance,,,8.0,88.0

@@ -1,0 +1,28 @@
+# Docker Instructions for Running the Flask S3 API
+
+## Prerequisites:
+- Docker installed (restart the connect again after install)
+- S3 bucket already created
+- AWS credentials with S3 access configured (optional: mounted or set via env)(command given below)
+
+## Steps:
+
+1. Navigate to the folder containing the Dockerfile and your code:
+   cd /path/to/your/project
+
+2. Build the Docker image:
+   docker build -t flask-s3-api .
+
+3. Run the container:
+   docker run -d -p 5000:5000 flask-s3-api
+
+4. Test the API:
+   Use curl or browser to access:
+   http://localhost:5000
+
+5. Upload File Example:
+   curl -X POST -F "file=@yourfile.csv" http://localhost:5000/upload
+
+## Notes:
+- Make sure the file `restapi.py` contains the Flask app with an `/upload` route that handles S3 upload logic.
+- AWS credentials can be mounted inside the container if needed
